@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import image from './assets/img/warning.svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Utility First Fundamentals</title>
+      <body>
+    {/* <!-- HTML/CSS Version --> */}
+    <div className="alert">
+      <div className="alert-logo-wrap">
+        <img className="alert-logo" src={image} alt="alert" />
+      </div>
+      <div className="alert-body">
+        <h4 className="alert-title">Are You Sure?</h4>
+        <p className="alert-message">You are about to delete a post</p>
+      </div>
+    </div>
+    </body>
+
+    {/* <!-- Tailwind Version --> */}
+
+    
+   
     </div>
   );
 }
