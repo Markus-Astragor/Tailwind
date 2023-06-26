@@ -23,13 +23,13 @@ function App() {
 
       {/* <!-- Tailwind Version --> */}
       <div className='my-32'>
-        <div className='flex max-w-sm m-auto bg-white p-6 shadow-lg shadow-black-500'>
+        <div className='flex max-w-sm m-auto bg-white p-6 shadow-lg shadow-black-500 rounded-md'>
           <div>
             <img src={image} alt='alert' className='w-12 h-12' />
           </div>
-          <div>
-            <h4>Are You Sure?</h4>
-            <p>You are about to delete a post</p>
+          <div className='ml-6'>
+            <h4 className='text-xl'>Are You Sure?</h4>
+            <p className='opacity-50'>You are about to delete a post</p>
           </div>
         </div>
       </div>
