@@ -39,7 +39,10 @@ function App() {
         <p className='underline decoration-yellowSichmine underline-offset-3'>This is the Sichmine's underlined color</p>
         <p className='underline decoration-cyan-500 underline-offset-2'>This is the cyan colour</p>
         {/* <!-- Border Colors --> */}
-
+        <div className='w-1/5 m-auto border-4 border-rose-500'>This is the border</div>
+        <div className='w-1/4 m-auto border-4 border-cyan-500'>This is the indigo border</div>
+        <div className='w-1/6 m-auto border-8 border-emerald-600'>This is the emerald color</div>
+        <div className='w-1/6 m-auto border-4 border-yellowSichmine '>This is the yellowSichmine</div>
         {/* <!-- Divide Colors --> */}
 
         {/* <!-- Outline Colors --> */}
