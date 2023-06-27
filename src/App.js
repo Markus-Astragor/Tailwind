@@ -44,15 +44,31 @@ function App() {
         <div className='w-1/6 m-auto border-8 border-emerald-600'>This is the emerald color</div>
         <div className='w-1/6 m-auto border-4 border-yellowSichmine '>This is the yellowSichmine</div>
         {/* <!-- Divide Colors --> */}
-
+        <div className='w-1/6 m-auto divide-y divide-blue-400'>
+          This is divide colour by axis y
+          <div> 1 </div>
+          <div> 2 </div>
+          <div> 3 </div>
+        </div>
+        <div className='flex justify-between w-1/4 m-auto divide-x divide-yellowSichmine'>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
         {/* <!-- Outline Colors --> */}
-
+        <div className='flex justify-between w-1/2 m-auto'>
+        <input className='block outline outline-offset-2 outline-yellowSichmine text-white bg-slate-700 border border-4 border-slate-700'/>
+        <input className='block outline outline-offset-2 outline-violet-500 text-white bg-slate-700'/>
+        </div>
         {/* <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)--> */}
-
+        <button className='shadow-lg shadow-violet-400 bg-cyan-400 '>Subscribe</button>
         {/* <!-- Accent Colors --> */}
-
+        <input type='checkbox' className='accent-emerald-500'/>
+        <input type='checkbox' className='accent-purple-500'/>
         {/* <!-- Arbitrary Colors --> */}
-
+        <div className='bg-[rgb(255,0,0)]'>Arbitrary colors rgb</div>
+        <div className='bg-[#FF00FF]'>Arbitrary colors hex</div>
+        <div className='bg-[steelblue]'>Arbitrary colors root</div>
       </body>
     </div>
   );
